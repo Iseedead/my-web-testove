@@ -1,0 +1,5 @@
+.idea
+web/assets
+vendor
+node_modules
+composer.lock
