@@ -38,9 +38,7 @@
         mounted: function () {
             this.$root.$on('search', (data) => {
                 this.enable = 'true';
-                console.log('Page.vue got event SEARCH with ' + JSON.stringify(data));
                 axios.post('/search_user', data).then(response => {
-                    console.log(response.data);
                     if (response.data.length === 0) {
                         this.lists.splice(0, this.lists.length, {user: 'No one found :C'});
                     } else {
