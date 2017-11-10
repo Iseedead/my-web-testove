@@ -1,22 +1,20 @@
-# front-silex
-Skeleton: Silex framework php and webpack + es6 + sass architecture frontend demo
+# Testove
 
-##requisites
-- php5 installed
-- composer installed
-- node installed
-- npm installed
+### Requisites
+- php5.6
+- composer
+- node
+- npm
+- mongoDB
 
-##run
-install dependencies
-
-backend
+### Run
+Install dependencies
 ```
-composer install
+$ composer install
+$ npm install
+$ sudo systemctl start mongodb (or $ sudo service mongod start)
 ```
-
-front 
+Start
 ```
-npm install && npm run start
+$ npm run start
 ```
-enjoy
