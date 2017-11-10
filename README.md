@@ -13,10 +13,10 @@ Install dependencies
 ```
 $ composer install
 $ npm install
-$ sudo systemctl start mongodb (or $ sudo service mongod start)
 ```
 Start
 ```
+$ sudo systemctl start mongodb (or $ sudo service mongod start)
 $ npm run start
 ```
 Server will run on http://localhost:7001/
