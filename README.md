@@ -1,4 +1,5 @@
 # Testove
+## Simple Vue.js/Silex/MongoDB app.
 
 ### Requisites
 - php5.6
@@ -18,3 +19,4 @@ Start
 ```
 $ npm run start
 ```
+Server will run on http://localhost:7001/
