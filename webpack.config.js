@@ -2,8 +2,7 @@
  * @author Juan Pablo <juanpablocs21@gmail.com
  * @date 16/09/16.
  */
- 
-var webpack = require('webpack');
+let webpack = require('webpack');
 
 module.exports = {
     context : __dirname + '/frontend/src',
@@ -27,7 +26,8 @@ module.exports = {
                 loader: "babel",
                 query:{presets:['es2015']},
                 exclude:/node_modules/
-            },            {
+            },
+            {
                 test: /\.vue$/,
                 loader: 'vue'
             }

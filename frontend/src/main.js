@@ -1,8 +1,7 @@
 import Vue from 'vue'
-import App from './app.vue'
+import App from './App.vue'
 
 new Vue({
-    delimiters: ['${', '}'],
     el: 'app',
     components: { App }
 });
